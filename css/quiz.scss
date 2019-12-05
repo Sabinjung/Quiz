@@ -1,0 +1,102 @@
+*{
+  font-family: 'Roboto';
+}
+.quiz-container {
+  display: flex;
+  width: 90%;
+  padding: 15px 15px 15px 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #f8f9fa;
+  overflow: hidden;
+
+  img {
+    width: 500px;
+    height: 500px;
+  }
+
+  section {
+    margin: 20px 0px 0px 140px;
+    h1 {
+      font-size: 40px;
+    }
+    .start-btn {
+      width: 38%;
+      height: 140px;
+      font-size: 20px;
+      color: #fff;
+      text-align: center;
+      margin: 15px;
+      border: none;
+      border-radius: 50%;
+      background: #56946b;
+      outline: none;
+      cursor: pointer;
+
+      &:hover {
+        background: #496d54;
+      }
+    }
+    .logout-btn {
+      width: 38%;
+      height: 140px;
+      font-size: 20px;
+      color: #fff;
+      text-align: center;
+      margin: 15px;
+      border: none;
+      border-radius: 50%;
+      background: #d15959;
+      outline: none;
+      cursor: pointer;
+
+      &:hover {
+        background: #8b4747;
+      }
+    }
+    .option-btn {
+      width: 44%;
+      height: 40px;
+      font-size: 20px;
+      color: #fff;
+      text-align: center;
+      margin: 20px 10px 20px 10px;
+      border: none;
+      border-radius: 5px;
+      background: #86b3d1;
+      outline: none;
+      cursor: pointer;
+
+      &:focus {
+        background: #365074;
+        color: #fff;
+      }
+    }
+    .next-btn {
+      width: 100%;
+      height: 40px;
+      font-size: 20px;
+      color: #fff;
+      text-align: center;
+      margin: 30px 0px 30px 0px;
+      border: none;
+      border-radius: 5px;
+      background: #5fa476;
+      outline: none;
+      cursor: not-allowed;
+    }
+    .restart-btn {
+      width: 100%;
+      height: 50px;
+      font-size: 20px;
+      color: #fff;
+      text-align: center;
+      margin: 30px 0px 30px 0px;
+      border: none;
+      border-radius: 5px;
+      background: #5fa476;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+}
